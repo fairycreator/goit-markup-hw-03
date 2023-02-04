@@ -51,6 +51,7 @@ body {
   max-width: 1128px;
   padding: 0 15px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .section {
@@ -221,6 +222,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--link-color);
   margin: 0px;
+  padding-bottom: 8px;
 }
 
 .subtitle {
@@ -307,6 +309,14 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.footer-section {
+  display: flex;
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .footer-container {
   width: 264px;
 }
@@ -325,3 +335,93 @@ body {
 }
 
 /*portfolio*/
+.portfolio {
+  padding-bottom: 120px;
+}
+
+/*portfolio buttons*/
+
+.button-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 0px;
+  gap: 24px;
+  margin-bottom: 72px;
+  margin-top: 96px;
+}
+
+.button-filters {
+  background: #404bbf;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.button-filters-text {
+  font-family: 'Roboto' sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #404bbf;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+
+.button-filters-text:hover,
+.button-filters-text:focus {
+  color: #ffffff;
+}
+
+.button-filters:hover,
+.button-filters:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*project cards*/
+
+.project-cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.project-card-item {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.project-card-item-border {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+.card-content {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-bottom: 8px;
+}
+
+.card-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
