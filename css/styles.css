@@ -55,7 +55,7 @@ body {
 }
 
 .section {
-  padding: 0px 0px 120px 0px;
+  padding: 120px 0px 120px 0px;
 }
 
 /*button*/
@@ -98,8 +98,6 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 /*logo*/
@@ -183,7 +181,7 @@ body {
 
 .hero {
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   background: var(--link-color);
 }
 .container-hero {
@@ -209,7 +207,6 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
-  margin-top: 120px;
 }
 
 .features-list {
@@ -334,6 +331,7 @@ body {
 
 /*portfolio*/
 .portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -347,7 +345,6 @@ body {
   align-content: center;
   padding: 0px;
   gap: 24px;
-  margin-top: 96px;
 }
 
 .button-filters {
